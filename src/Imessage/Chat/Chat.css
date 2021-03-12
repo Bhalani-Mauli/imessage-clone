@@ -37,6 +37,11 @@
 
 .chat_messages {
     flex: 1;
+    overflow: scroll;
+}
+
+.chat_messages::-webkit-scrollbar {
+    display: none;
 }
 
 .chat_input > form > input {
